@@ -14,13 +14,13 @@
 		CA90BB311C35F30900D81919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA90BB2F1C35F30900D81919 /* LaunchScreen.storyboard */; };
 		CA90BB3C1C35F30A00D81919 /* SunriseCalendarChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA90BB3B1C35F30A00D81919 /* SunriseCalendarChallengeTests.swift */; };
 		CA90BB471C35F30A00D81919 /* SunriseCalendarChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA90BB461C35F30A00D81919 /* SunriseCalendarChallengeUITests.swift */; };
-		CA90BB551C35F38C00D81919 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA90BB541C35F38C00D81919 /* CalendarCell.swift */; };
-		CA90BB571C35F85E00D81919 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA90BB561C35F85E00D81919 /* CalendarViewController.swift */; };
-		CA90BB5B1C36236700D81919 /* HeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA90BB5A1C36236700D81919 /* HeaderTableCell.swift */; };
-		CA9FB19E1C39C97600179589 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB19D1C39C97600179589 /* WeatherAPI.swift */; };
-		CA9FB1A01C39D1FF00179589 /* HourlyTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB19F1C39D1FF00179589 /* HourlyTemp.swift */; };
-		CA9FB1A21C3B4C7E00179589 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1A11C3B4C7E00179589 /* DateHelper.swift */; };
-		CA9FB1A41C3B571600179589 /* TemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1A31C3B571600179589 /* TemperatureCell.swift */; };
+		CA9FB1B11C3B686200179589 /* HourlyTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1B01C3B686200179589 /* HourlyTemp.swift */; };
+		CA9FB1B31C3B68C200179589 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1B21C3B68C200179589 /* DateHelper.swift */; };
+		CA9FB1B51C3B68CB00179589 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1B41C3B68CB00179589 /* WeatherAPI.swift */; };
+		CA9FB1B71C3B68D800179589 /* TemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1B61C3B68D800179589 /* TemperatureCell.swift */; };
+		CA9FB1B91C3B68E000179589 /* HeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1B81C3B68E000179589 /* HeaderTableCell.swift */; };
+		CA9FB1BB1C3B68EC00179589 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1BA1C3B68EC00179589 /* CalendarCell.swift */; };
+		CA9FB1BD1C3B68F800179589 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FB1BC1C3B68F800179589 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +56,14 @@
 		CA90BB421C35F30A00D81919 /* SunriseCalendarChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseCalendarChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA90BB461C35F30A00D81919 /* SunriseCalendarChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseCalendarChallengeUITests.swift; sourceTree = "<group>"; };
 		CA90BB481C35F30A00D81919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA90BB541C35F38C00D81919 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
-		CA90BB561C35F85E00D81919 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		CA90BB5A1C36236700D81919 /* HeaderTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableCell.swift; sourceTree = "<group>"; };
 		CA9FB19A1C39892D00179589 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		CA9FB19D1C39C97600179589 /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
-		CA9FB19F1C39D1FF00179589 /* HourlyTemp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyTemp.swift; sourceTree = "<group>"; };
-		CA9FB1A11C3B4C7E00179589 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
-		CA9FB1A31C3B571600179589 /* TemperatureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureCell.swift; sourceTree = "<group>"; };
+		CA9FB1B01C3B686200179589 /* HourlyTemp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourlyTemp.swift; path = Model/HourlyTemp.swift; sourceTree = "<group>"; };
+		CA9FB1B21C3B68C200179589 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateHelper.swift; path = Model/DateHelper.swift; sourceTree = "<group>"; };
+		CA9FB1B41C3B68CB00179589 /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherAPI.swift; path = Model/WeatherAPI.swift; sourceTree = "<group>"; };
+		CA9FB1B61C3B68D800179589 /* TemperatureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemperatureCell.swift; path = View/TemperatureCell.swift; sourceTree = "<group>"; };
+		CA9FB1B81C3B68E000179589 /* HeaderTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderTableCell.swift; path = View/HeaderTableCell.swift; sourceTree = "<group>"; };
+		CA9FB1BA1C3B68EC00179589 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarCell.swift; path = View/CalendarCell.swift; sourceTree = "<group>"; };
+		CA9FB1BC1C3B68F800179589 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = Controller/CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,9 +168,9 @@
 		CA9FB1A51C3B5E8A00179589 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CA9FB19F1C39D1FF00179589 /* HourlyTemp.swift */,
-				CA9FB1A11C3B4C7E00179589 /* DateHelper.swift */,
-				CA9FB19D1C39C97600179589 /* WeatherAPI.swift */,
+				CA9FB1B01C3B686200179589 /* HourlyTemp.swift */,
+				CA9FB1B21C3B68C200179589 /* DateHelper.swift */,
+				CA9FB1B41C3B68CB00179589 /* WeatherAPI.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -178,9 +178,9 @@
 		CA9FB1A61C3B5E9400179589 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CA9FB1A31C3B571600179589 /* TemperatureCell.swift */,
-				CA90BB5A1C36236700D81919 /* HeaderTableCell.swift */,
-				CA90BB541C35F38C00D81919 /* CalendarCell.swift */,
+				CA9FB1B61C3B68D800179589 /* TemperatureCell.swift */,
+				CA9FB1B81C3B68E000179589 /* HeaderTableCell.swift */,
+				CA9FB1BA1C3B68EC00179589 /* CalendarCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 		CA9FB1A71C3B5E9F00179589 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CA90BB561C35F85E00D81919 /* CalendarViewController.swift */,
+				CA9FB1BC1C3B68F800179589 /* CalendarViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -359,13 +359,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA90BB571C35F85E00D81919 /* CalendarViewController.swift in Sources */,
-				CA90BB5B1C36236700D81919 /* HeaderTableCell.swift in Sources */,
-				CA9FB19E1C39C97600179589 /* WeatherAPI.swift in Sources */,
-				CA90BB551C35F38C00D81919 /* CalendarCell.swift in Sources */,
-				CA9FB1A01C39D1FF00179589 /* HourlyTemp.swift in Sources */,
-				CA9FB1A21C3B4C7E00179589 /* DateHelper.swift in Sources */,
-				CA9FB1A41C3B571600179589 /* TemperatureCell.swift in Sources */,
+				CA9FB1B51C3B68CB00179589 /* WeatherAPI.swift in Sources */,
+				CA9FB1B91C3B68E000179589 /* HeaderTableCell.swift in Sources */,
+				CA9FB1B11C3B686200179589 /* HourlyTemp.swift in Sources */,
+				CA9FB1BB1C3B68EC00179589 /* CalendarCell.swift in Sources */,
+				CA9FB1B71C3B68D800179589 /* TemperatureCell.swift in Sources */,
+				CA9FB1BD1C3B68F800179589 /* CalendarViewController.swift in Sources */,
+				CA9FB1B31C3B68C200179589 /* DateHelper.swift in Sources */,
 				CA90BB271C35F30900D81919 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

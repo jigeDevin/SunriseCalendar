@@ -216,7 +216,12 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UITabl
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        <#code#>
+        switch indexPath.section {
+        case 119 - sundayTodayDifference, (120 - sundayTodayDifference):
+            return 31
+        default:
+            return 50
+        }
     }
     
     //MARK: Scroll View Delegate
